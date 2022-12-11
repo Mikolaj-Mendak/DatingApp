@@ -20,7 +20,7 @@ namespace API.Extensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme);
 
-
+            
             return services;
         }
 
